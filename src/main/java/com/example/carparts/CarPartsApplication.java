@@ -1,11 +1,13 @@
-import java.util.*;
-import org.springframework.boot.SpringApplication;
+package com.example.carparts;
 
+import java.util.*;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class CarPartsApplication {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         SpringApplication.run(CarPartsApplication.class, args);
-
-        scanner.close();
     }
 }

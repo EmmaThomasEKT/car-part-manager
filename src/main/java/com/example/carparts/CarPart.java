@@ -1,3 +1,5 @@
+package com.example.carparts;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController

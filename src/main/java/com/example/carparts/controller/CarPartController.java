@@ -1,5 +1,8 @@
+package com.example.carparts.controller;
+
 import org.springframework.web.bind.annotation.*;
 import java.util.*;
+import com.example.carparts.CarPart;
 
 @RestController
 @RequestMapping("/api/carparts")
