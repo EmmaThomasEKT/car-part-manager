@@ -3,6 +3,11 @@
 import javax.tools.Tool;
 import java.util.*;
 
+// helper classes:
+// append to currentcarpartlist
+// append to newcarpartlist
+// calculate 
+
 
 public class Main {
     public static void main(String[] args) {
